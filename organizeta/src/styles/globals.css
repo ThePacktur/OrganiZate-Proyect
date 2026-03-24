@@ -1,0 +1,80 @@
+:root {
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  color: #111827;
+  background: #f9fafb;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+}
+
+.oz-container {
+  padding: 1rem;
+}
+
+.oz-navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.oz-navbar div {
+  display: flex;
+  gap: 1rem;
+}
+
+.oz-auth {
+  display: grid;
+  gap: 0.75rem;
+  max-width: 420px;
+}
+
+.oz-lists {
+  display: flex;
+  gap: 1rem;
+}
+
+.oz-list {
+  background: #e5e7eb;
+  border-radius: 10px;
+  padding: 0.75rem;
+  width: 320px;
+}
+
+.oz-card-preview {
+  background: #fff;
+  border-radius: 8px;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.oz-editor {
+  margin-top: 1rem;
+  padding: 1rem;
+  border: 1px dashed #9ca3af;
+  border-radius: 12px;
+}
+
+.oz-toolbar {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.oz-canvas {
+  min-height: 180px;
+  background: #fff;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  display: grid;
+  place-items: center;
+}
